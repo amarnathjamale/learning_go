@@ -50,6 +50,20 @@ func main() {
 	fourthUser.updateName("Burry")
 	fmt.Println(fourthUser)
 
+	// Maps
+
+	colors := map[string]string{
+		"red":   "#ff0000",
+		"white": "#ffffff",
+	}
+	fmt.Println(colors)
+	fmt.Println(colors["red"])
+	colors["white"] = "#000000"
+	fmt.Println(colors["white"])
+
+	for key, value := range colors {
+		fmt.Println("value is", value, " and key is", key)
+	}
 }
 
 func (p person) print() {
