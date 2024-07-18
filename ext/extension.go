@@ -9,7 +9,7 @@ import (
 
 type Extension struct {
 	ExtensionName     string             `json:"extensionName"`
-	Description       string             `json:"extensionName"`
+	Description       string             `json:"extensionDesc"`
 	Versions          []ExtensionVersion `json:"versions"`
 	Statistics        map[string]int     `json:"statistics"`
 	PublisherUsername string             `json:"publisher.publisherName"`
