@@ -37,8 +37,8 @@ func main() {
 		5,
 	}
 	triangle2 := triangle{
-		10,
-		5,
+		base:   10,
+		height: 5,
 	}
 	square1 := square{2}
 	square2 := square{4}
