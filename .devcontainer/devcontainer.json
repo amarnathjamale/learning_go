@@ -36,12 +36,11 @@
       "label": "Hello Remote World",
       "onAutoForward": "notify"
     }
-  }
+  },
+  "remoteUser": "root"
 }
 
-  // Use 'postCreateCommand' to run commands after the container is created.
-  // "postCreateCommand": "go version",
+// Use 'postCreateCommand' to run commands after the container is created.
+// "postCreateCommand": "go version",
 
-  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-  // "remoteUser": "root"
-
+// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
